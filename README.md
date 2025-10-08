@@ -1,13 +1,3 @@
-Test Summary Report
-
-
-Project: ReserveCalifornia Mobile/Web
-Tester: Goeun Heo
-Date: 2025-10-07
-Environment: Windows 11 Chrome Version 141.0.7390.55 (Official Build) (64-bit) Mobile Chrome emulation / Website
-Total Test Cases: 24
-Passed: 20
-Failed: 4
 <img width="373" height="193" alt="image" src="https://github.com/user-attachments/assets/fd2208ba-f4ce-4b1e-925a-726584c6a4e8" />
 
 
