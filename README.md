@@ -17,7 +17,7 @@ Designed and executed comprehensive manual and API tests to identify usability a
 | Type | Description | Tool |
 |------|--------------|------|
 | Test Cases | 24 structured cases (login, reservation, payment, calendar) | Excel |
-| Bug Reports | 4 validated defects | Excel |
+| Bug Reports | 4 confirmed bugs | Excel |
 | API Testing | 10 endpoints (GET/POST for availability & booking) | Postman |
 
 ## 📊 Key Insights
