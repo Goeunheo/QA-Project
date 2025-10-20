@@ -2,7 +2,7 @@
 
 ## 🔍 Overview
 This project focuses on testing two real-world web applications:
-- **ReserveCalifornia.gov:** Manual testing on user reservation workflows.
+- **ReserveCalifornia.gov:** Manual testing on Mobile/Web Application for user reservation workflows.
 - **Recreation.gov:** API testing on public camping reservation APIs.
 
 ## 🧠 Objective
