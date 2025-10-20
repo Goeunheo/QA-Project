@@ -1,27 +1,4 @@
-TC_ID	Feature	Test Case Description	Precondition	Test Steps	Expected Result	Status	Notes/Bug ID
-TC_001	Login	Verify login with valid credentials	User has account	1. Open mobile site 2. Tap Login icon 3. Enter email/password 4. Tap Login	Dashboard loads successfully	Pass	
-TC_002	Login	Verify login fails with invalid credentials	None	1. Open mobile site 2. Tap login icon 3. Enter wrong password 4. Tap Login	Error message shown : Login Failed	Pass	
-TC_003	Logout	Verify logout works	User logged in	1. Tap profile icon 2. Tap Logout	Redirected to home	Pass	
-TC_004	Search Campground and Select Date	Verify search for “Half Moon Bay SB” and select reservation dates	None	1. Tap search bar 2. Enter “Half Moon Bay SB” 3. Select Date “October 11-12” 4. Tap Show Results	Correct results displayed	Pass	
-TC_005	Site Type Filter	Filter by site type	Sites loaded	1. Tap Filter (Select one) 2. Select “Camping” 3. Tap Show Results	Only Camping sites displayed	Pass	
-TC_006	Site Camping Equipment Filter	Filter by Camping Equipment	Camping selected	1. Tap filter (Select one) 2. Select “Tent” 3. Tap Show Results	Only Tent sites displayed	Pass	
-TC_007	Add to Basket	Verify adding site works	Site selected and there is available site	1. Select Campground 2. Select Available Campsite Lot# 2. Tap “Book Now”	Reservation Details page appears	Pass	
-TC_008	Add to Basket	Verify adding site with valid number of people (Adults + Children ≤ site-specific maximum)	Reservation details page 	1. Select Adults “4” and Children “4” 2. Select valid vehicles # “1” and length 3. Select Camping Unit “Tent” 4. Enter valid Occupant Name 5. Check on “Agree to the term” box 6. Tap “Reserve Unit”	Reservation added to shopping cart with countdown timer: 14 Min : 59 Sec	Pass	
-TC_009	Add to Basket	Error when adding site with invalid number of people (Adults + Children > site-specific maximum)	Reservation details page	1. Select Adults “4” and Children “5” 2. Select valid vehicles # “1” and length 3. Select Camping Unit “Tent” 4. Enter valid Occupant Name 5. Check on “Agree to the term” box 6. Tap “Reserve Unit”	Error message shown: Maximum Occupants Exceeded	Pass	
-TC_010	Remove from Basket	Remove site from Cart	Cart has items	1. Tap Cart 2. Tap “Clear Item” on top	Item removed	Pass	
-TC_011	Remove from Basket	Remove site from Cart	Cart has items	1. Tap Cart 2. Tap “Empty Cart” on bottom	Item removed	Pass	
-TC_012	Check out with CAPTCHA	Verify CAPTCHA validation when user attempts to proceed without selecting “I’m not a robot”	Cart contains a valid campsite 	1. Leave CAPTCHA “I’m not a robot” unchecked 2. Tap Go To Checkout 	System should display an error message: Please complete CAPTCHA verification	Pass	
-TC_013	Check out	Complete reservation	Cart ready	1. Select “I’m not a robot” 2. Tap Go To Checkout  3. Enter valid credit card information 4. Tap Submit	Confirmation page shows	Pass	
-TC_014	Payment Validation	Fail with invalid card	Cart ready	1. Enter invalid card 2. Tap Pay	Error message shown	Pass	
-TC_015	Modify Reservation	Verify user can modify an existing reservation	Valid reservation exists	1. Tap Modify on the existing reservation 2. Tap “Select new unit” 3. Choose a different available unit	New unit has been selected	Fail	Bug_001 New unit cannot be selected
-TC_016	Cancel Reservation	Cancel existing reservation	Valid reservation exists	1. Tap “My Reservations” 2. Tap Cancel	Reservation canceled	Pass	
-TC_017	Reservation Date Validation 	Verify that the system restricts booking to one night (Fri–Sat) when the following night (Sat) is already reserved. 	A campsite has an existing reservation starting on Saturday night (e.g., another user booked Sat–Sun).	1. Open the campsite detail page. 2. Select Check-in: Friday and Check-out: Sunday (2 nights). 3. Observe the Book Now button behavior.	“Book Now” button should be disabled	Pass	
-TC_018	Terms Agreement	Must check agreement	Checkout page	1. Leave unchecked 2. Tap Continue	Warning message shown	Pass	
-TC_019	Session Timeout	Auto logout after inactivity	Logged in	1. Leave idle 15 mins	User logged out automatically	Pass	
-TC_020	Performance	Verify reservation page loads under 5 seconds 	Normal Wi-Fi network, Cache cleared	1. Open reservation page  2. Measure load time using Chrome DevTools	Reservation page loads under 5 seconds	Pass 	
-TC_021	Cart Timeout and Lock Release 	Verify that expired cart sessions are properly released and do not keep the campsite locked 	User is logged in  A campsite is available for reservation	1. Select a campground and choose a site/date. 2. Add the selection to the cart. 3. Wait until the 15-minute countdown timer reaches 0. 4. Click “Continue Shopping” after the timer expires. 5. Attempt to select the same campsite/date again.	After expiration, the cart session should clear automatically. The campsite should be released and available for new reservations. No repeated “Cart Expired” error should appear.	Fail	Bug_002  Priority High
 
-TC_ID	Feature	Test Case Description	Precondition	Test Steps	Expected Result	Actual Result	Status	Notes/Bug ID	Priority
-TC_022_w	Back Navigation	Page back button behavior	On reservation details page (after selecting a campsite)	1. Tap device back button	Page loads previous screen <3s	Page freezes	Fail	Bug_003	Low
-TC_023_w	Responsive Layout	UI works on small screen	Open the application in Chrome on Windows	1. Gradually reduce the browser window width 2. Observe the “Create Account” button and other UI elements	All elements visible & usable	UI elements such as the “Create Account” button overlap, causing a broken or distorted layout.	Fail	Bug_004	Low
-TC_024_w	Accessibility	Tab navigation works	Keyboard used	1. Press Tab repeatedly	Focus moves correctly	Focus moves correctly	Pass		
+<img width="1460" height="712" alt="image" src="https://github.com/user-attachments/assets/cf8cf6f8-f5e3-4a80-8718-2c2201bb6429" />
+<img width="1459" height="539" alt="image" src="https://github.com/user-attachments/assets/a734a8b5-40c2-46f4-8862-29679423f29e" />
+<img width="1338" height="188" alt="image" src="https://github.com/user-attachments/assets/5f946034-8766-49f1-824d-a409c31b148d" />
